@@ -12,3 +12,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.wrapper {
+  width: 500px;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+.inputVal{
+  width: 200px;
+  margin-left: 17px;
+  margin-bottom: 10px;
+}
+.textareaVal{
+  vertical-align: middle;
+  margin-left: 5px;
+  height: 100px;
+}
+/* .textareaField .userName{
+  height: 40px;
+  line-height: 40px;
+} */
+.btn{
+  margin-top: 20px;
+  border: none;
+  background: #38A3D2;
+  color: #fff;
+  width: 50px;
+  line-height: 20px;
+  border-radius: 2px;
+  margin-left: 230px;
+}
+.textareaField{
+  height: 100px;
+}
+.comment{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.comment-user{
+  color: #4EB3E3;
+}
