@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import CommentApp from './comment-app/CommentApp'
+import './router.css'
+import './reset.css'
+import App from './App';
 
   ReactDOM.render(
-    <CommentApp />,
+   <App/>,
     document.getElementById('root')
   )
 

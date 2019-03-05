@@ -1,0 +1,29 @@
+#footer{
+    width:100%;
+    height: 50px;
+    background: #000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+#footer>ul{
+    display: flex;
+    width: 100%;height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#footer>ul>li{
+    width: 100%;
+    height: 100%;
+}
+#footer>ul>li>a{
+    width: 100%;
+    line-height: 50px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+#footer>ul>li>.active{
+    background: #c33;
+    color: #fff;
+}
