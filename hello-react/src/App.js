@@ -15,7 +15,7 @@ class App extends Component {
         <Router>
           <Fragment>
           {/** 
-            compoment 渲染*/}
+            compoment 渲染
             <Switch>
               <Redirect path='/' exact to="/home" />
               <Route path="/home" exact component={Home}></Route>
@@ -23,19 +23,21 @@ class App extends Component {
               <Route path="/list" component={List}></Route>
               <Route path='/home/homeOne' component={HomeOne}></Route>
             </Switch>
-            {/**params传值 */}
-            {/*<Route path='/details/:id/:name' component={Details}/>*/}
-            {/**query传值 */}
+            // params传值 
+            // <Route path='/details/:id/:name' component={Details}/>
+
+
+           query传值 
             <Route path='/details' component={Details}/>
 
-
-          {/*
+        */}
+          {/**/}
             <Route path="/" exact  render={()=>{return <Redirect to='/home' />}}></Route>
             <Route path="/home" exact  render={()=>{return <Home />}}></Route>
             <Route path="/my"  render={()=>{return <My/> }}></Route>
             <Route path="/list"  render={()=>{return <List/>}}></Route>
             <Route path='/home/homeOne' render={()=>{return <HomeOne/>}}></Route>
-          */}
+            <Route path='/details' render={({match,loaction,history})=>{return <Details match={match} loaction={loaction} history={history}/>}} />
 
             <div id="footer">
               <ul>
